@@ -10,7 +10,7 @@ app.listen(port, ()=>{
 	console.log('Example app listening on port ${}')
 })
 
-app.get("/api/webhook",(req, res) => {
+app.post("/api/webhook",(req, res) => {
 	res.send('se ha hecho un llamado al webhook')
 	console.log(req.body)
 })
