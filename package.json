@@ -1,0 +1,26 @@
+{
+  "name": "proasa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "axios": "0.27.2",
+    "body-parser": "1.20.1",
+    "compression": "1.7.4",
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "helmet": "6.0.1",
+    "mysql": "2.18.1",
+    "mysql2": "3.0.1",
+    "nodemon": "2.0.20",
+    "socket.io": "4.5.4",
+    "sunshine-conversations-client": "9.12.0"
+
+  },
+  "author": "",
+  "license": "ISC"
+}
