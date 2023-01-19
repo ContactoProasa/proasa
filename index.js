@@ -12,5 +12,5 @@ app.listen(port, ()=>{
 
 app.post("/api/webhook",(req, res) => {
 	//res.send('se ha hecho un llamado al webhook')
-	console.log(Object.keys(req))
+	console.log(req.query)
 })
